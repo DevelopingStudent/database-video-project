@@ -2,6 +2,8 @@
 
 This repository keeps the Database Video project organized in a readable relational structure.
 
+See [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md) for the project scope, connected paper and video deliverables, responsibilities, credits, and repository structure.
+
 Large source files stay in Google Drive. GitHub stores the structured project data, source links, script relationships, and database schema.
 
 ## Main data files
