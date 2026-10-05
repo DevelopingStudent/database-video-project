@@ -5,7 +5,7 @@ This repository keeps the Database Group project organized in a readable relatio
 
 ## Project scope
 
-This project has two connected deliverables for the technology project assignment:
+This project has three connected deliverables for the technology project assignment:
 
 1. A research brief about databases as a technology domain within information systems.
 2. A companion video that explains the same topic through the Yahoo breach and the Mother of All Breaches as examples.
