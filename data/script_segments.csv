@@ -1,45 +1,56 @@
 segment_id,project_id,scene_id,segment_order,text,speaker,status
-1,1,,1,And having all that information stored is only useful if you can actually find what you need.,Narrator,current
-2,1,,2,Say you type your Yahoo email address into the login screen. Yahoo doesn’t scroll through millions of accounts looking for yours. It asks the database for the record that matches.,Narrator,current
-3,1,,3,That request is called a query.”,Narrator,current
-4,1,,4,“And Yahoo had another problem. A lot of people were doing this at the same time.,Narrator,current
-5,1,,5,"Databases are built for concurrent use, meaning lots of people can access the same system at once. That’s one reason a company like Yahoo needs a database instead of one enormous spreadsheet.”     Database vs spreadsheet",Narrator,current
-6,1,,6,“Then there’s size.,Narrator,current
-7,1,,7,"As more people sign up, the database has to grow with them. That ability to keep handling more and more information is called scalability.",Narrator,current
-8,1,,8,Thousands of records can become millions. Millions can become billions.”     databases,Narrator,current
-9,1,,9,“But there’s one question we haven’t asked yet.,Narrator,current
-10,1,,10,Who is allowed to see all of it?”,Narrator,current
-11,1,,11,“Databases use permissions to control access. One person might be allowed to see information. Another might be allowed to change it. Someone else might not be allowed in at all.”     databases,Narrator,current
-12,1,,12,“And that brings us back to Yahoo.”,Narrator,current
-13,1,,13,"“In 2013, someone who wasn’t supposed to have access got access to Yahoo account data.",Narrator,current
-14,1,,14,"Eventually, Yahoo revealed that every account it had at the time had been affected.",Narrator,current
-15,1,,15,About three billion accounts.”,Narrator,current
-16,1,,16,“Three billion sounded enormous.,Narrator,current
-17,1,,17,But Yahoo was only one breach.”,Narrator,current
-18,1,,18,"“Over the years, stolen records from Yahoo and thousands of other breaches kept circulating.",Narrator,current
-19,1,,19,Some were usernames. Some were email addresses. Some contained passwords or other account information.,Narrator,current
-20,1,,20,"And eventually, huge collections of that stolen data started getting combined.”",Narrator,current
-21,1,,21,“Which brings us to 2024.”,Narrator,current
-22,1,,22,“Researchers uncovered a collection so large it was nicknamed the Mother of All Breaches — MOAB.,Narrator,current
-23,1,,23,About 26 billion records.”,Narrator,current
-24,1,,24,“But here’s the important part.,Narrator,current
-25,1,,25,That does not mean 26 billion people were hacked in one giant attack.,Narrator,current
-26,1,,26,MOAB was largely a collection of records from earlier breaches gathered together in one place.”,Narrator,current
-27,1,,27,"“And now that we know what a record is, that number makes a little more sense.",Narrator,current
-28,1,,28,"The same person can have a Yahoo account, a social media account, a shopping account, and dozens of other accounts.",Narrator,current
-29,1,,29,One person can appear in many different records.”,Narrator,current
-30,1,,30,“But putting billions of records together creates something powerful.,Narrator,current
-31,1,,31,Remember queries?,Narrator,current
-32,1,,32,"Once information is organized, it can be searched.”",Narrator,current
-33,1,,33,"“That’s what makes databases so useful to businesses. They don’t just hold information. They make enormous amounts of information easier to find, update, organize, and use.”     databases",Narrator,current
-34,1,,34,“And the same thing that makes a database useful can make stolen data dangerous.,Narrator,current
-35,1,,35,A pile of random information is one thing.,Narrator,current
-36,1,,36,"Billions of organized, searchable records are something else.”",Narrator,current
-37,1,,37,“That doesn’t make databases bad technology. Almost every organization depends on them.,Narrator,current
-38,1,,38,Stores use them for customers and inventory. Banks use them for accounts and transactions. Streaming services use them to keep track of users and content. Even your email account depends on one.”,Narrator,current
-39,1,,39,“The lesson from Yahoo and MOAB is really about scale.,Narrator,current
-40,1,,40,One field becomes part of a record.,Narrator,current
-41,1,,41,Records fill a database.,Narrator,current
-42,1,,42,Databases can grow to serve millions or billions of users.,Narrator,current
-43,1,,43,"And when that much information is collected in one place, managing who can access it becomes just as important as storing it.”",Narrator,current
-44,1,,44,"“So the next time you log into your email, there’s a lot more happening behind that little password box than it looks like.”",Narrator,current
+1,1,1,1,So what happened?,Narrator,recovered
+2,1,1,2,And what does the biggest collection of stolen data ever discovered have to do with databases?,Narrator,recovered
+3,1,1,3,"In early 2024, security researchers discovered an enormous collection of stolen information that became known as the Mother of All Breaches, or MOAB.",Narrator,recovered
+4,1,2,4,"To find out, we'll have to go back to the beginning.",Narrator,recovered
+5,1,2,5,"Before we can understand how billions of records ended up in one place, we need to understand what a database actually is.",Narrator,recovered
+6,1,3,6,"It’s a good question, and the answer starts with your email account.",Narrator,recovered
+7,1,3,7,"If you had a Yahoo account, Yahoo had to keep track of information about you.",Narrator,recovered
+8,1,4,8,"Your name, your email address, your phone number, your date of birth, your password information, even your security questions.",Narrator,recovered
+9,1,4,9,"Each individual piece of information is called a field. Put those fields together, and you have a record.",Narrator,recovered
+10,1,5,10,So every Yahoo account created another record that Yahoo had to store and manage.,Narrator,recovered
+11,1,5,11,"And when you’re dealing with hundreds of millions, or eventually billions, of accounts, you need a system built to organize all of that information. That system is a database.",Narrator,recovered
+12,1,,12,And having all that information stored is only useful if you can actually find what you need.,Narrator,current
+13,1,,13,Say you type your Yahoo email address into the login screen. Yahoo doesn’t scroll through millions of accounts looking for yours. It asks the database for the record that matches.,Narrator,current
+14,1,,14,That request is called a query.”,Narrator,current
+15,1,,15,“And Yahoo had another problem. A lot of people were doing this at the same time.,Narrator,current
+16,1,,16,"Databases are built for concurrent use, meaning lots of people can access the same system at once. That’s one reason a company like Yahoo needs a database instead of one enormous spreadsheet.”     Database vs spreadsheet",Narrator,current
+17,1,,17,“Then there’s size.,Narrator,current
+18,1,,18,"As more people sign up, the database has to grow with them. That ability to keep handling more and more information is called scalability.",Narrator,current
+19,1,,19,Thousands of records can become millions. Millions can become billions.”     databases,Narrator,current
+20,1,,20,“But there’s one question we haven’t asked yet.,Narrator,current
+21,1,,21,Who is allowed to see all of it?”,Narrator,current
+22,1,,22,“Databases use permissions to control access. One person might be allowed to see information. Another might be allowed to change it. Someone else might not be allowed in at all.”     databases,Narrator,current
+23,1,,23,“And that brings us back to Yahoo.”,Narrator,current
+24,1,,24,"“In 2013, someone who wasn’t supposed to have access got access to Yahoo account data.",Narrator,current
+25,1,,25,"Eventually, Yahoo revealed that every account it had at the time had been affected.",Narrator,current
+26,1,,26,About three billion accounts.”,Narrator,current
+27,1,,27,“Three billion sounded enormous.,Narrator,current
+28,1,,28,But Yahoo was only one breach.”,Narrator,current
+29,1,,29,"“Over the years, stolen records from Yahoo and thousands of other breaches kept circulating.",Narrator,current
+30,1,,30,Some were usernames. Some were email addresses. Some contained passwords or other account information.,Narrator,current
+31,1,,31,"And eventually, huge collections of that stolen data started getting combined.”",Narrator,current
+32,1,,32,“Which brings us to 2024.”,Narrator,current
+33,1,,33,“Researchers uncovered a collection so large it was nicknamed the Mother of All Breaches — MOAB.,Narrator,current
+34,1,,34,About 26 billion records.”,Narrator,current
+35,1,,35,“But here’s the important part.,Narrator,current
+36,1,,36,That does not mean 26 billion people were hacked in one giant attack.,Narrator,current
+37,1,,37,MOAB was largely a collection of records from earlier breaches gathered together in one place.”,Narrator,current
+38,1,,38,"“And now that we know what a record is, that number makes a little more sense.",Narrator,current
+39,1,,39,"The same person can have a Yahoo account, a social media account, a shopping account, and dozens of other accounts.",Narrator,current
+40,1,,40,One person can appear in many different records.”,Narrator,current
+41,1,,41,“But putting billions of records together creates something powerful.,Narrator,current
+42,1,,42,Remember queries?,Narrator,current
+43,1,,43,"Once information is organized, it can be searched.”",Narrator,current
+44,1,,44,"“That’s what makes databases so useful to businesses. They don’t just hold information. They make enormous amounts of information easier to find, update, organize, and use.”     databases",Narrator,current
+45,1,,45,“And the same thing that makes a database useful can make stolen data dangerous.,Narrator,current
+46,1,,46,A pile of random information is one thing.,Narrator,current
+47,1,,47,"Billions of organized, searchable records are something else.”",Narrator,current
+48,1,,48,“That doesn’t make databases bad technology. Almost every organization depends on them.,Narrator,current
+49,1,,49,Stores use them for customers and inventory. Banks use them for accounts and transactions. Streaming services use them to keep track of users and content. Even your email account depends on one.”,Narrator,current
+50,1,,50,“The lesson from Yahoo and MOAB is really about scale.,Narrator,current
+51,1,,51,One field becomes part of a record.,Narrator,current
+52,1,,52,Records fill a database.,Narrator,current
+53,1,,53,Databases can grow to serve millions or billions of users.,Narrator,current
+54,1,,54,"And when that much information is collected in one place, managing who can access it becomes just as important as storing it.”",Narrator,current
+55,1,,55,"“So the next time you log into your email, there’s a lot more happening behind that little password box than it looks like.”",Narrator,current
