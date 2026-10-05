@@ -110,3 +110,41 @@ CREATE INDEX IF NOT EXISTS idx_scenes_project ON scenes(project_id);
 CREATE INDEX IF NOT EXISTS idx_scenes_time ON scenes(start_time_seconds, end_time_seconds);
 CREATE INDEX IF NOT EXISTS idx_timeline_scene ON timeline_events(scene_id);
 CREATE INDEX IF NOT EXISTS idx_sources_project ON sources(project_id);
+
+CREATE TABLE IF NOT EXISTS script_sections (
+    section_id INTEGER PRIMARY KEY,
+    project_id INTEGER NOT NULL,
+    title TEXT NOT NULL,
+    start_segment_id INTEGER NOT NULL,
+    end_segment_id INTEGER NOT NULL,
+    purpose TEXT,
+    status TEXT DEFAULT 'current',
+    FOREIGN KEY (project_id) REFERENCES projects(project_id),
+    FOREIGN KEY (start_segment_id) REFERENCES script_segments(segment_id),
+    FOREIGN KEY (end_segment_id) REFERENCES script_segments(segment_id)
+);
+
+CREATE TABLE IF NOT EXISTS script_citations (
+    script_citation_id INTEGER PRIMARY KEY,
+    segment_id INTEGER NOT NULL,
+    source_id INTEGER NOT NULL,
+    support_note TEXT,
+    FOREIGN KEY (segment_id) REFERENCES script_segments(segment_id),
+    FOREIGN KEY (source_id) REFERENCES sources(source_id)
+);
+
+CREATE TABLE IF NOT EXISTS source_gaps (
+    gap_id INTEGER PRIMARY KEY,
+    project_id INTEGER NOT NULL,
+    start_segment_id INTEGER NOT NULL,
+    end_segment_id INTEGER NOT NULL,
+    claim_group TEXT NOT NULL,
+    reason TEXT,
+    status TEXT DEFAULT 'needs_external_source',
+    FOREIGN KEY (project_id) REFERENCES projects(project_id),
+    FOREIGN KEY (start_segment_id) REFERENCES script_segments(segment_id),
+    FOREIGN KEY (end_segment_id) REFERENCES script_segments(segment_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_script_citations_segment ON script_citations(segment_id);
+CREATE INDEX IF NOT EXISTS idx_source_gaps_project ON source_gaps(project_id);
