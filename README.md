@@ -24,7 +24,6 @@ IDs are:
 - `segment_id` identifies script segments
 - `source_id` identifies research sources
 
-Standalone tracking IDs that were not used by other tables were removed.
 
 ## Storage strategy
 
