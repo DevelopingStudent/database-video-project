@@ -4,9 +4,9 @@ This directory index explains where the actual source material for the Database 
 
 ## Course PDFs
 
-Actual copies are stored in the ChatGPT Library folder:
+Actual copies are stored in the Google Drive folder:
 
-`/Database Video Sources/course_material/`
+`Google Drive / Database Video Sources / course_material`
 
 Files:
 - `databases.pdf`
@@ -19,9 +19,9 @@ The corresponding source records are in `data/sources.csv`.
 
 ## Audio and Music
 
-Actual copies of the identified audio files are stored in:
+Actual copies of the identified audio files are stored in Google Drive:
 
-`/Database Video Sources/audio/`
+`Google Drive / Database Video Sources / audio`
 
 The corresponding source-page URLs, creator information, and license records are in `data/audio_assets.csv`.
 
