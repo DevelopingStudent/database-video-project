@@ -1,3 +1,3 @@
-video_source_id,project_id,title,source_type,source_url,notes
-1,1,Yahoo data breach opening video,YouTube,https://www.youtube.com/watch?v=QtKamfYly1s,"User identified this exact YouTube video as the Yahoo data breach footage used in the opening."
-2,1,General Pixabay stock footage attribution,stock_library,https://pixabay.com/videos/,"Stock footage clips came from Pixabay, but the exact individual asset pages can no longer be guaranteed. This is a general source attribution only."
+title,source_type,source_url,notes
+Yahoo data breach opening video,YouTube,https://www.youtube.com/watch?v=QtKamfYly1s,User identified this exact YouTube video as the Yahoo data breach footage used in the opening.
+General Pixabay stock footage attribution,stock_library,https://pixabay.com/videos/,"Stock footage clips came from Pixabay, but the exact individual asset pages can no longer be guaranteed. This is a general source attribution only."
