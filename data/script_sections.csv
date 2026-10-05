@@ -1,8 +1,8 @@
-title,start_segment_id,end_segment_id,purpose,status
-Opening hook and setup,1,5,Frames the breach question and establishes why database concepts matter.,current
-Database basics and queries,6,14,"Introduces account data, fields, records, databases, and queries.",current
-Concurrent use scalability and permissions,15,23,Explains why databases suit large multi-user systems and how access is controlled.,current
-Yahoo breach example,24,31,Uses Yahoo as the concrete breach case and transitions from one breach to aggregated stolen data.,current
-MOAB and record aggregation,32,40,Explains the 2024 MOAB collection and why one person can appear in many records.,current
-Searchability usefulness and risk,41,49,Returns to queries and explains why organized searchable information is useful and potentially dangerous when stolen.,current
-Scale and closing summary,50,55,Summarizes field-to-record-to-database scale and the importance of access control.,current
+title,start_segment_id,end_segment_id,purpose
+Opening hook and setup,1,5,Frames the breach question and establishes why database concepts matter.
+Database basics and queries,6,14,"Introduces account data, fields, records, databases, and queries."
+Concurrent use scalability and permissions,15,23,Explains why databases suit large multi-user systems and how access is controlled.
+Yahoo breach example,24,31,Uses Yahoo as the concrete breach case and transitions from one breach to aggregated stolen data.
+MOAB and record aggregation,32,40,Explains the 2024 MOAB collection and why one person can appear in many records.
+Searchability usefulness and risk,41,49,Returns to queries and explains why organized searchable information is useful and potentially dangerous when stolen.
+Scale and closing summary,50,55,Summarizes field-to-record-to-database scale and the importance of access control.
