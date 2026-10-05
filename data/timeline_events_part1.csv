@@ -1,13 +1,13 @@
 event_id,clip_name,event_type,timeline_start_seconds,timeline_end_seconds
-1,openart-final_v3_1790616007337_f0fe2def.mp4,video,0.30,33.43
-2,openart-final_v3_1790616007337_f0fe2def.mp4,video,33.43,58.60
+1,video_project_file.mp4,video,0.30,33.43
+2,video_project_file.mp4,video,33.43,58.60
 3,Fusion Title,video,58.60,64.80
-4,openart-final_v3_1790616007337_f0fe2def.mp4,video,64.80,66.97
+4,video_project_file.mp4,video,64.80,66.97
 5,Fusion Title,video,66.97,70.93
 6,Fusion Title,video,70.93,74.87
-7,openart-final_v3_1790616007337_f0fe2def.mp4,video,74.87,97.37
+7,video_project_file.mp4,video,74.87,97.37
 8,Fusion Title,video,97.37,102.97
-9,openart-final_v3_1790616007337_f0fe2def.mp4,video,102.97,187.60
+9,video_project_file.mp4,video,102.97,187.60
 10,Fusion Title,video,187.60,192.60
-11,openart-final_v3_1790616007337_f0fe2def.mp4,video,192.60,314.13
-12,openart-final_v3_1790616007337_f0fe2def.mp4,audio,0.30,33.43
+11,video_project_file.mp4,video,192.60,314.13
+12,video_project_file.mp4,audio,0.30,33.43
