@@ -90,3 +90,19 @@ Google Drive = actual PDFs, music, sound effects, and other large source files.
 GitHub = readable structured data, source links, and schema.
 
 SQLite = optional relational snapshot generated from the structured data.
+
+## Source access
+
+Actual course PDFs are stored in the Google Drive folder:
+
+`Google Drive / Database Video Sources / course_material`
+
+Audio and music files are stored in:
+
+`Google Drive / Database Video Sources / audio`
+
+Web research sources are not copied locally. Their direct URLs are stored in `data/sources.csv`.
+
+Exact or general stock-video source URLs are stored in `data/video_sources.csv`.
+
+`data/script_citations.csv` connects script segments to source IDs. `data/citations.csv` connects scenes to source IDs. A citation record identifies the relationship; the full source is found through its `source_id` in `data/sources.csv`.
