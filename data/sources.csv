@@ -13,3 +13,4 @@ source_id,title,source_type,author_or_org,url_or_file_ref,stored_copy,access_ref
 12,Information Systems,university_program,Utah Valley University,https://www.uvu.edu/ist/info-systems/,,https://www.uvu.edu/ist/info-systems/
 13,Program Learning Outcomes,university_program,Utah Valley University,https://www.uvu.edu/ist/degrees/plos.html,,https://www.uvu.edu/ist/degrees/plos.html
 14,Information Systems - Data Analytics Emphasis B.S.,university_program,Utah Valley University Academic Catalog,https://catalog.uvu.edu/engineering-technology/information-systems-technology/informaion-systems-data-analytics-emphasis-bs/,,https://catalog.uvu.edu/engineering-technology/information-systems-technology/informaion-systems-data-analytics-emphasis-bs/
+15,UVU Voice Project - Google Chirp-HD Aoede voice,voice_generation_app,Ruby Hofeling,https://uvuvoiceproject.ai.studio/,,https://uvuvoiceproject.ai.studio/
