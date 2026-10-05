@@ -1,23 +1,40 @@
-# Database Video Project Database
+# Database Video Project
 
-This starter SQLite database is designed to track the video project without storing large media files inside the database.
+This repository keeps the Database Video project organized in a readable relational structure.
 
-Large video/audio/project files should remain in Google Drive. The database stores references to those files and connects them to scenes, script segments, sources, and DaVinci timeline events.
+Large source files stay in Google Drive. GitHub stores the structured project data, source links, script relationships, and database schema.
 
-## Main tables
+## Main data files
 
-- `projects`: project-level information
-- `media_files`: rendered videos, DaVinci exports, audio files, and other major project files
-- `scenes`: scene-by-scene breakdown of the finished or working video
-- `assets`: B-roll, graphics, music, screenshots, sound effects, etc.
-- `scene_assets`: connects assets to scenes
-- `sources`: research material and citations
-- `citations`: connects sources to scenes
-- `script_segments`: narration/script text
-- `timeline_events`: exact DaVinci clip/timeline data when XML/EDL/CSV data is available
+- `data/media_files.csv`: major project files such as the current render, script, and DaVinci project
+- `data/scenes.csv`: scene-by-scene breakdown
+- `data/script_segments.csv`: narration/script text
+- `data/script_sections.csv`: larger logical script sections
+- `data/sources.csv`: research sources and direct access locations
+- `data/script_citations.csv`: connects script segments to supporting sources
+- `data/citations.csv`: connects scenes to supporting sources
+- `data/audio_assets.csv`: music and sound effects with source and Drive access information
+- `data/video_sources.csv`: identified or general stock-video sources
+
+## Readability rules
+
+This is a single-project database, so redundant `project_id` columns have been removed.
+
+IDs are kept only where they are needed to create relationships:
+- `scene_id` identifies scenes
+- `segment_id` identifies script segments
+- `source_id` identifies research sources
+
+Standalone tracking IDs that were not used by other tables were removed.
+
+## Video timing
+
+The old `timeline_events_part1.csv` and `timeline_events_part2.csv` files were removed because they were provisional DaVinci timeline exports from an unfinished edit. The scene and script files are the useful working records for now. Final detailed timing can be rebuilt from the finished video or final DaVinci project if needed.
 
 ## Storage strategy
 
-Google Drive = large files and media.
-GitHub = database/schema/structured project data.
-SQLite = the actual relational project database.
+Google Drive = actual PDFs, music, sound effects, and other large source files.
+
+GitHub = readable structured data, source links, and schema.
+
+SQLite = optional relational snapshot generated from the structured data.
