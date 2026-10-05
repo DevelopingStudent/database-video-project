@@ -1,6 +1,6 @@
-# Database Video Project
+# Database Group Project
 
-This repository keeps the Database Video project organized in a readable relational structure.
+This repository keeps the Database Group project organized in a readable relational structure.
 
 
 ## Project scope
@@ -9,6 +9,7 @@ This project has two connected deliverables for the technology project assignmen
 
 1. A research brief about databases as a technology domain within information systems.
 2. A companion video that explains the same topic through the Yahoo breach and the Mother of All Breaches as examples.
+3. A database to show a real example of databases and apply the knowledge in a hands on way
 
 The database in this repository is the shared project layer for both deliverables. It organizes the research sources, paper and narration content, scene plan, citations, media references, and audio assets used to develop the final paper and video.
 
