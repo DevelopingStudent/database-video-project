@@ -40,8 +40,8 @@ The video translates the database concepts into an accessible narrative. Its cur
 
 | Area | People | Responsibility |
 |---|---|---|
-| Research brief | Brandon and Dulce | Research, writing, academic pathways, careers, and references |
-| Video and database | Project lead and Harshith | Video planning, narration structure, database organization, media coordination, and production support |
+| Research brief | Brandon Bassani and Dulce Lopez | Research, writing, academic pathways, careers, and references |
+| Video and database | Ruby Holeling and Harshith Chinthala | Video planning, narration structure, database organization, media coordination, and production support |
 
 ## Repository contents
 
