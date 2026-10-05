@@ -12,7 +12,6 @@ CREATE TABLE IF NOT EXISTS media_files (
     project_id INTEGER NOT NULL,
     file_name TEXT NOT NULL,
     media_type TEXT NOT NULL,
-    storage_provider TEXT,
     storage_url TEXT,
     duration_seconds REAL,
     version_label TEXT,
