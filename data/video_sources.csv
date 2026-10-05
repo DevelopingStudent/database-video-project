@@ -1,0 +1,2 @@
+video_source_id,project_id,title,source_type,source_url,match_status,confidence,notes
+1,1,Yahoo data breach opening video,YouTube,https://www.youtube.com/watch?v=QtKamfYly1s,confirmed_by_user,high,"User identified this exact YouTube video as the Yahoo data breach footage used in the opening."
