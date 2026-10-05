@@ -1,0 +1,6 @@
+source_id,project_id,title,source_type,author_or_org,url_or_file_ref,notes
+1,1,What is a Database?,course_pdf,CompTIA,databases.pdf,"Tech+ CertMaster Learn 6.0 section 9.1.1. Covers database purpose, centralized access, security, recovery, scalability, and database management systems."
+2,1,Database vs. Spreadsheet,course_pdf,CompTIA,Database vs spreadsheet.pdf,"Tech+ CertMaster Learn 6.0 section 9.1.4. Covers processing speed, backup and recovery, forced data types, concurrent use, security, and scalability compared with flat files/spreadsheets."
+3,1,Working With a Database,course_pdf,CompTIA,working with a databse.pdf,"Tech+ CertMaster Learn 6.0 section 9.1.7. Covers records, fields, importing data, queries, SQL, and reports."
+4,1,Database Location and Access,course_pdf,CompTIA,Database and Location Access.pdf,"Tech+ CertMaster Learn 6.0 section 9.1.9. Covers servers, offline and online databases, local databases, cloud databases, access, and availability."
+5,1,Database Structure,course_pdf,CompTIA,database structure.pdf,"Tech+ CertMaster Learn 6.0 section 9.2.1. Covers entities, attributes, relationships, structured data, non-structured data, and semi-structured data."
