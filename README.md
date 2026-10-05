@@ -18,18 +18,13 @@ Large source files stay in Google Drive. GitHub stores the structured project da
 
 ## Readability rules
 
-This is a single-project database, so redundant `project_id` columns have been removed.
 
-IDs are kept only where they are needed to create relationships:
+IDs are:
 - `scene_id` identifies scenes
 - `segment_id` identifies script segments
 - `source_id` identifies research sources
 
 Standalone tracking IDs that were not used by other tables were removed.
-
-## Video timing
-
-The old `timeline_events_part1.csv` and `timeline_events_part2.csv` files were removed because they were provisional DaVinci timeline exports from an unfinished edit. The scene and script files are the useful working records for now. Final detailed timing can be rebuilt from the finished video or final DaVinci project if needed.
 
 ## Storage strategy
 
