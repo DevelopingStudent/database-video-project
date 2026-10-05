@@ -133,18 +133,3 @@ CREATE TABLE IF NOT EXISTS script_citations (
     FOREIGN KEY (source_id) REFERENCES sources(source_id)
 );
 
-CREATE TABLE IF NOT EXISTS source_gaps (
-    gap_id INTEGER PRIMARY KEY,
-    project_id INTEGER NOT NULL,
-    start_segment_id INTEGER NOT NULL,
-    end_segment_id INTEGER NOT NULL,
-    claim_group TEXT NOT NULL,
-    reason TEXT,
-    status TEXT DEFAULT 'needs_external_source',
-    FOREIGN KEY (project_id) REFERENCES projects(project_id),
-    FOREIGN KEY (start_segment_id) REFERENCES script_segments(segment_id),
-    FOREIGN KEY (end_segment_id) REFERENCES script_segments(segment_id)
-);
-
-CREATE INDEX IF NOT EXISTS idx_script_citations_segment ON script_citations(segment_id);
-CREATE INDEX IF NOT EXISTS idx_source_gaps_project ON source_gaps(project_id);
