@@ -1,5 +1,5 @@
 gap_id,project_id,start_segment_id,end_segment_id,claim_group,reason,status
-1,1,3,3,MOAB discovery and naming,"The five course PDFs do not document the 2024 Mother of All Breaches discovery or its naming. An external source is required.",needs_external_source
-2,1,24,26,Yahoo 2013 breach and three billion accounts,"The five course PDFs explain database concepts but do not document the Yahoo breach date scope or account count.",needs_external_source
-3,1,29,31,Stolen breach records circulating and being combined,"The course PDFs do not document the circulation or aggregation history of stolen breach datasets.",needs_external_source
-4,1,32,37,MOAB 2024 and 26 billion records,"The course PDFs do not support the date 26-billion-record figure or the explanation that MOAB largely combined earlier breach data.",needs_external_source
+1,1,3,3,MOAB discovery and naming,"The five course PDFs do not document the 2024 Mother of All Breaches discovery or its naming. An external source is required.",sourced_external
+2,1,24,26,Yahoo 2013 breach and three billion accounts,"The five course PDFs explain database concepts but do not document the Yahoo breach date scope or account count.",sourced_external
+3,1,29,31,Stolen breach records circulating and being combined,"The course PDFs do not document the circulation or aggregation history of stolen breach datasets.",sourced_external
+4,1,32,37,MOAB 2024 and 26 billion records,"The course PDFs do not support the date 26-billion-record figure or the explanation that MOAB largely combined earlier breach data.",sourced_external
