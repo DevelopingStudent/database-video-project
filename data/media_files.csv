@@ -1,4 +1,4 @@
-media_id,project_id,file_name,media_type,duration_seconds,version_label,notes
-1,1,video_project_file.mp4,video,,315.85905,current working render,"Uploaded/rendered video; 1920x1080 H.264, 30 fps, AAC audio."
-2,1,script.txt,script,,,current,Current script
-3,1,New Project 2(1).drp,davinci_project,,,current,"DaVinci Resolve project export. Project name: New Project 2; Resolve project format version 17, app 21.0.4."
+media_id,project_id,file_name,media_type,version_label,duration_seconds,notes
+1,1,video_project_file.mp4,video,current working render,315.85905,"Uploaded/rendered video; 1920x1080 H.264, 30 fps, AAC audio."
+2,1,script.txt,script,current,,"Current script"
+3,1,New Project 2(1).drp,davinci_project,current,,"DaVinci Resolve project export. Project name: New Project 2; Resolve project format version 17, app 21.0.4."
